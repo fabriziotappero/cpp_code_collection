@@ -1,2 +1,4 @@
-# cpp_code_collection
+# Code Collection
 A collection of C++ stuff
+
+CPP INTERFACE USING INHERITANCE
