@@ -1,4 +1,7 @@
-#include <iostream>
+/*
+IMPLEMENTATION OF A C++ INTERFACE USING THE INHERITANCE MECHANISM.
+*/
+#include <bits/stdc++.h>
 
 // Abstract base class (interface) for shapes
 class Shape {
@@ -62,8 +65,13 @@ int main() {
     Shape* shape1 = &circle;
     Shape* shape2 = &rectangle;
 
+    // This is how it is done in C++.
+    // std::shared_ptr<Shape> shape1 = std::make_shared<Circle>(5.0);
+    // std::shared_ptr<Shape> shape2 = std::make_shared<Rectangle>(4.0,6.0);
+
     shape1->printDetails();
     shape2->printDetails();
 
     return 0;
 }
+
