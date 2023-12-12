@@ -1,4 +1,4 @@
-A collection of C++ stuff.
+A very usefull collection of short C++ exampled for datatypes, patterns and more.
 
 ## CPP ENUM TYPE
 
